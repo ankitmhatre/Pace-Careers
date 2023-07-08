@@ -26,6 +26,7 @@ struct ContentView: View {
                                    openURL(url)
                     }
                 }
+            .navigationTitle("Pace Careers")
            
             
         }
