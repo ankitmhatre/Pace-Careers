@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC35185E2A57778000F2D89D /* Pace_Careers_NotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35185D2A57778000F2D89D /* Pace_Careers_NotificationApp.swift */; };
+		BC3518622A57778300F2D89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3518612A57778300F2D89D /* Assets.xcassets */; };
+		BC35186F2A57778300F2D89D /* Pace_Careers_NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35186E2A57778300F2D89D /* Pace_Careers_NotificationTests.swift */; };
+		BC3518792A57778300F2D89D /* Pace_Careers_NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3518782A57778300F2D89D /* Pace_Careers_NotificationUITests.swift */; };
+		BC35187B2A57778300F2D89D /* Pace_Careers_NotificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35187A2A57778300F2D89D /* Pace_Careers_NotificationUITestsLaunchTests.swift */; };
+		BC35188B2A577B7200F2D89D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BC35188A2A577B7200F2D89D /* FirebaseAnalytics */; };
+		BC35188D2A577B7200F2D89D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BC35188C2A577B7200F2D89D /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		BC35188F2A577B7200F2D89D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BC35188E2A577B7200F2D89D /* FirebaseMessaging */; };
+		BC3518962A578C7400F2D89D /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = BC3518952A578C7400F2D89D /* FeedKit */; };
+		BC3518992A578D3A00F2D89D /* PullToRefreshKit in Frameworks */ = {isa = PBXBuildFile; productRef = BC3518982A578D3A00F2D89D /* PullToRefreshKit */; };
+		BC35189B2A579AAA00F2D89D /* XMLParserDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35189A2A579AAA00F2D89D /* XMLParserDelegateImpl.swift */; };
+		BC3518A02A57B90700F2D89D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BC35189F2A57B90700F2D89D /* FirebaseFirestore */; };
+		BC3518A22A57B90700F2D89D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BC3518A12A57B90700F2D89D /* FirebaseFirestoreSwift */; };
+		BC7BAF3D2A5A071200C48308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7BAF3C2A5A071200C48308 /* GoogleService-Info.plist */; };
+		BC7BAF412A5A072900C48308 /* Pace_Careers_NotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7BAF402A5A072900C48308 /* Pace_Careers_NotificationApp.swift */; };
+		BC7BAF452A5A074B00C48308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7BAF442A5A074B00C48308 /* ContentView.swift */; };
+		BC7BAF492A5A07B700C48308 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7BAF482A5A07B700C48308 /* Preview Assets.xcassets */; };
+		BC7BAF4B2A5A0B3F00C48308 /* Pace-Careers-Notification-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7BAF4A2A5A0B3E00C48308 /* Pace-Careers-Notification-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC35186B2A57778300F2D89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3518522A57778000F2D89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3518592A57778000F2D89D;
+			remoteInfo = "Pace Careers Notification";
+		};
+		BC3518752A57778300F2D89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3518522A57778000F2D89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3518592A57778000F2D89D;
+			remoteInfo = "Pace Careers Notification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC35185A2A57778000F2D89D /* Pace Careers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pace Careers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35185D2A57778000F2D89D /* Pace_Careers_NotificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_Careers_NotificationApp.swift; sourceTree = "<group>"; };
+		BC3518612A57778300F2D89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC35186A2A57778300F2D89D /* Pace CareersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pace CareersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35186E2A57778300F2D89D /* Pace_Careers_NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_Careers_NotificationTests.swift; sourceTree = "<group>"; };
+		BC3518742A57778300F2D89D /* Pace CareersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pace CareersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3518782A57778300F2D89D /* Pace_Careers_NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_Careers_NotificationUITests.swift; sourceTree = "<group>"; };
+		BC35187A2A57778300F2D89D /* Pace_Careers_NotificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace_Careers_NotificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC35189A2A579AAA00F2D89D /* XMLParserDelegateImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParserDelegateImpl.swift; sourceTree = "<group>"; };
+		BC7BAF3C2A5A071200C48308 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC7BAF402A5A072900C48308 /* Pace_Careers_NotificationApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pace_Careers_NotificationApp.swift; sourceTree = "<group>"; };
+		BC7BAF442A5A074B00C48308 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC7BAF472A5A077800C48308 /* Pace Careers Notification.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Pace Careers Notification.entitlements"; sourceTree = "<group>"; };
+		BC7BAF482A5A07B700C48308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC7BAF4A2A5A0B3E00C48308 /* Pace-Careers-Notification-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pace-Careers-Notification-Info.plist"; path = "Pace Careers Notification/Pace-Careers-Notification-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3518572A57778000F2D89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35188F2A577B7200F2D89D /* FirebaseMessaging in Frameworks */,
+				BC35188B2A577B7200F2D89D /* FirebaseAnalytics in Frameworks */,
+				BC35188D2A577B7200F2D89D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				BC3518A22A57B90700F2D89D /* FirebaseFirestoreSwift in Frameworks */,
+				BC3518962A578C7400F2D89D /* FeedKit in Frameworks */,
+				BC3518992A578D3A00F2D89D /* PullToRefreshKit in Frameworks */,
+				BC3518A02A57B90700F2D89D /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518672A57778300F2D89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518712A57778300F2D89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3518512A57778000F2D89D = {
+			isa = PBXGroup;
+			children = (
+				BC35185C2A57778000F2D89D /* Pace Careers Notification */,
+				BC35186D2A57778300F2D89D /* Pace Careers NotificationTests */,
+				BC3518772A57778300F2D89D /* Pace Careers NotificationUITests */,
+				BC35185B2A57778000F2D89D /* Products */,
+				BC35189E2A57B90700F2D89D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC35185B2A57778000F2D89D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC35185A2A57778000F2D89D /* Pace Careers.app */,
+				BC35186A2A57778300F2D89D /* Pace CareersTests.xctest */,
+				BC3518742A57778300F2D89D /* Pace CareersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC35185C2A57778000F2D89D /* Pace Careers Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BAF3C2A5A071200C48308 /* GoogleService-Info.plist */,
+				BC7BAF402A5A072900C48308 /* Pace_Careers_NotificationApp.swift */,
+				BC7BAF472A5A077800C48308 /* Pace Careers Notification.entitlements */,
+				BC7BAF4A2A5A0B3E00C48308 /* Pace-Careers-Notification-Info.plist */,
+				BC7BAF442A5A074B00C48308 /* ContentView.swift */,
+				BC35185D2A57778000F2D89D /* Pace_Careers_NotificationApp.swift */,
+				BC3518612A57778300F2D89D /* Assets.xcassets */,
+				BC3518632A57778300F2D89D /* Preview Content */,
+				BC35189A2A579AAA00F2D89D /* XMLParserDelegateImpl.swift */,
+			);
+			path = "Pace Careers Notification";
+			sourceTree = "<group>";
+		};
+		BC3518632A57778300F2D89D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BAF482A5A07B700C48308 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC35186D2A57778300F2D89D /* Pace Careers NotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC35186E2A57778300F2D89D /* Pace_Careers_NotificationTests.swift */,
+			);
+			path = "Pace Careers NotificationTests";
+			sourceTree = "<group>";
+		};
+		BC3518772A57778300F2D89D /* Pace Careers NotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3518782A57778300F2D89D /* Pace_Careers_NotificationUITests.swift */,
+				BC35187A2A57778300F2D89D /* Pace_Careers_NotificationUITestsLaunchTests.swift */,
+			);
+			path = "Pace Careers NotificationUITests";
+			sourceTree = "<group>";
+		};
+		BC35189E2A57B90700F2D89D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3518592A57778000F2D89D /* Pace Careers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC35187E2A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace Careers" */;
+			buildPhases = (
+				BC3518562A57778000F2D89D /* Sources */,
+				BC3518572A57778000F2D89D /* Frameworks */,
+				BC3518582A57778000F2D89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pace Careers";
+			packageProductDependencies = (
+				BC35188A2A577B7200F2D89D /* FirebaseAnalytics */,
+				BC35188C2A577B7200F2D89D /* FirebaseAnalyticsWithoutAdIdSupport */,
+				BC35188E2A577B7200F2D89D /* FirebaseMessaging */,
+				BC3518952A578C7400F2D89D /* FeedKit */,
+				BC3518982A578D3A00F2D89D /* PullToRefreshKit */,
+				BC35189F2A57B90700F2D89D /* FirebaseFirestore */,
+				BC3518A12A57B90700F2D89D /* FirebaseFirestoreSwift */,
+			);
+			productName = "Pace Careers Notification";
+			productReference = BC35185A2A57778000F2D89D /* Pace Careers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3518692A57778300F2D89D /* Pace CareersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3518812A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace CareersTests" */;
+			buildPhases = (
+				BC3518662A57778300F2D89D /* Sources */,
+				BC3518672A57778300F2D89D /* Frameworks */,
+				BC3518682A57778300F2D89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC35186C2A57778300F2D89D /* PBXTargetDependency */,
+			);
+			name = "Pace CareersTests";
+			productName = "Pace Careers NotificationTests";
+			productReference = BC35186A2A57778300F2D89D /* Pace CareersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC3518732A57778300F2D89D /* Pace CareersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3518842A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace CareersUITests" */;
+			buildPhases = (
+				BC3518702A57778300F2D89D /* Sources */,
+				BC3518712A57778300F2D89D /* Frameworks */,
+				BC3518722A57778300F2D89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3518762A57778300F2D89D /* PBXTargetDependency */,
+			);
+			name = "Pace CareersUITests";
+			productName = "Pace Careers NotificationUITests";
+			productReference = BC3518742A57778300F2D89D /* Pace CareersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3518522A57778000F2D89D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BC3518592A57778000F2D89D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BC3518692A57778300F2D89D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BC3518592A57778000F2D89D;
+					};
+					BC3518732A57778300F2D89D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BC3518592A57778000F2D89D;
+					};
+				};
+			};
+			buildConfigurationList = BC3518552A57778000F2D89D /* Build configuration list for PBXProject "Pace Careers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3518512A57778000F2D89D;
+			packageReferences = (
+				BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BC3518942A578C7400F2D89D /* XCRemoteSwiftPackageReference "FeedKit" */,
+				BC3518972A578D3A00F2D89D /* XCRemoteSwiftPackageReference "PullToRefreshKit" */,
+			);
+			productRefGroup = BC35185B2A57778000F2D89D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3518592A57778000F2D89D /* Pace Careers */,
+				BC3518692A57778300F2D89D /* Pace CareersTests */,
+				BC3518732A57778300F2D89D /* Pace CareersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3518582A57778000F2D89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BAF492A5A07B700C48308 /* Preview Assets.xcassets in Resources */,
+				BC7BAF3D2A5A071200C48308 /* GoogleService-Info.plist in Resources */,
+				BC7BAF4B2A5A0B3F00C48308 /* Pace-Careers-Notification-Info.plist in Resources */,
+				BC3518622A57778300F2D89D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518682A57778300F2D89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518722A57778300F2D89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3518562A57778000F2D89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BAF412A5A072900C48308 /* Pace_Careers_NotificationApp.swift in Sources */,
+				BC35185E2A57778000F2D89D /* Pace_Careers_NotificationApp.swift in Sources */,
+				BC7BAF452A5A074B00C48308 /* ContentView.swift in Sources */,
+				BC35189B2A579AAA00F2D89D /* XMLParserDelegateImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518662A57778300F2D89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35186F2A57778300F2D89D /* Pace_Careers_NotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3518702A57778300F2D89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC35187B2A57778300F2D89D /* Pace_Careers_NotificationUITestsLaunchTests.swift in Sources */,
+				BC3518792A57778300F2D89D /* Pace_Careers_NotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC35186C2A57778300F2D89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3518592A57778000F2D89D /* Pace Careers */;
+			targetProxy = BC35186B2A57778300F2D89D /* PBXContainerItemProxy */;
+		};
+		BC3518762A57778300F2D89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3518592A57778000F2D89D /* Pace Careers */;
+			targetProxy = BC3518752A57778300F2D89D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC35187C2A57778300F2D89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC35187D2A57778300F2D89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC35187F2A57778300F2D89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pace Careers Notification/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 95H8772G6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pace Careers Notification/Pace-Careers-Notification-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Careers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pace.careers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Pace Prov Profile 2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC3518802A57778300F2D89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pace Careers Notification/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 95H8772G6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pace Careers Notification/Pace-Careers-Notification-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pace Careers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pace.careers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Pace Prov Profile 2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BC3518822A57778300F2D89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95H8772G6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pace.careers.Pace-Careers-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pace Careers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pace Careers";
+			};
+			name = Debug;
+		};
+		BC3518832A57778300F2D89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95H8772G6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pace.careers.Pace-Careers-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pace Careers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pace Careers";
+			};
+			name = Release;
+		};
+		BC3518852A57778300F2D89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95H8772G6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pace.careers.Pace-Careers-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pace Careers Notification";
+			};
+			name = Debug;
+		};
+		BC3518862A57778300F2D89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95H8772G6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pace.careers.Pace-Careers-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pace Careers Notification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3518552A57778000F2D89D /* Build configuration list for PBXProject "Pace Careers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35187C2A57778300F2D89D /* Debug */,
+				BC35187D2A57778300F2D89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC35187E2A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace Careers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC35187F2A57778300F2D89D /* Debug */,
+				BC3518802A57778300F2D89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3518812A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace CareersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3518822A57778300F2D89D /* Debug */,
+				BC3518832A57778300F2D89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3518842A57778300F2D89D /* Build configuration list for PBXNativeTarget "Pace CareersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3518852A57778300F2D89D /* Debug */,
+				BC3518862A57778300F2D89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		BC3518942A578C7400F2D89D /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		BC3518972A578D3A00F2D89D /* XCRemoteSwiftPackageReference "PullToRefreshKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LeoMobileDeveloper/PullToRefreshKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC35188A2A577B7200F2D89D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BC35188C2A577B7200F2D89D /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		BC35188E2A577B7200F2D89D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		BC3518952A578C7400F2D89D /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518942A578C7400F2D89D /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+		BC3518982A578D3A00F2D89D /* PullToRefreshKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518972A578D3A00F2D89D /* XCRemoteSwiftPackageReference "PullToRefreshKit" */;
+			productName = PullToRefreshKit;
+		};
+		BC35189F2A57B90700F2D89D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BC3518A12A57B90700F2D89D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC3518892A577B7200F2D89D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC3518522A57778000F2D89D /* Project object */;
+}
